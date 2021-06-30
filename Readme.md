@@ -73,6 +73,12 @@ Heat Matrix is Shown For Correlation Between Each Attribute(Linear Relation)
 
 ![WhatsApp Image 2021-06-30 at 2 45 21 PM](https://user-images.githubusercontent.com/62774372/123957141-1215bb00-d9c9-11eb-9a09-08a714929a08.jpeg)
 
+## Naive Bayes
+
+We are classifying the news articles such that our model helps in classifying the news articles to be a profit or a loss.
+We are doing this by calculating the diff in closed price of present day with the previous day.
+
+
 ## RNN LSTM
 
 ![Screenshot (27)](https://user-images.githubusercontent.com/62774372/123957916-08d91e00-d9ca-11eb-8664-5b59067a4730.png)
