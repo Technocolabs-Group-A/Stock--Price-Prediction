@@ -67,3 +67,26 @@ Linear_regression(2).ipynb
 
 
 
+## Steps that we performed:
+
+   Web scrapped
+   Data Loading
+   Data Preprocessing
+   Exploratory data analysis
+   Feature engineering
+   Feature selection
+   Feature transformation
+   Model building
+   Model evalutaion
+   Model tuning
+   Prediction's
+
+## Tools used:
+
+   Python
+   Pycharm
+   Jupyter Notebook
+   Google Colab
+   GitHub
+   GitBash
+   SublimeTextEditor 
