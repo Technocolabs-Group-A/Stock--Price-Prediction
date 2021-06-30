@@ -13,6 +13,7 @@ Python 3 Anaconda: It will install ipython notebook and most of the libraries wh
 ## DATA
 
 HistoricalData_APPLE.csv
+
 ![Screenshot](https://user-images.githubusercontent.com/62774372/123954864-86029400-d9c6-11eb-8981-bddf30c2ba56.png)
 
 
@@ -45,13 +46,17 @@ Low -  Low Prices of Stocks
 ## EDA(Exploratry Data Analysis)
 
 Data Visualization for all the columns for yearly wise
-https://drive.google.com/file/d/1lpVmKRSbWBk0RzcPntuKkX48wgw0YDhN/view?usp=sharing
+
+![Screenshot (23)](https://user-images.githubusercontent.com/62774372/123955329-1b9e2380-d9c7-11eb-839b-f54f9677c1f6.png)
 
 Data Visualization for all the columns for monthly wise
-https://drive.google.com/file/d/1ZcdGc3wuEpWsPE1MSDxhNGTCe6FUhggx/view?usp=sharing
+
+![Screenshot (24)](https://user-images.githubusercontent.com/62774372/123955486-4a1bfe80-d9c7-11eb-9789-8d934598fbe5.png)
 
 Data Visualization for all the columns for quarterly wise
-https://drive.google.com/file/d/1M9Z73SZEo56QC_LfxPewD2Fy_bcR3zRO/view?usp=sharing
+
+![Screenshot (25)](https://user-images.githubusercontent.com/62774372/123955686-82234180-d9c7-11eb-9bd3-d5fdeb8a1cb7.png)
+
 
 Scatter PLot is Plotted between each Attribute(Trend) 
 (https://drive.google.com/file/d/1ib8FFDrXaZrtGburc5bRDdKSB_Mv6Gkx/view?usp=sharing)
