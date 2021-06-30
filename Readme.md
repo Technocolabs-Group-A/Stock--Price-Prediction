@@ -14,8 +14,9 @@ Python 3 Anaconda: It will install ipython notebook and most of the libraries wh
 
 HistoricalData_APPLE.csv
 
-(https://drive.google.com/file/d/1wiCtktRpAanaQZGAMLzIxxCt46j1hwz9/view?usp=sharing)
+![Data CSV](https://drive.google.com/file/d/1wiCtktRpAanaQZGAMLzIxxCt46j1hwz9/view?usp=sharing)
 
+https://camo.githubusercontent.com/6dd6f6a144622c9e065aad9534811d6b61ba794dc349e28a71f772644a578c36/68747470733a2f2f64726976652e676f6f676c652e636f6d2f66696c652f642f31776943746b74527041616e61515a47414d4c7a497878437434366a3168777a392f766965773f7573703d73686172696e67
 ## Data Overview
 
 Data Source --> Dataset/
