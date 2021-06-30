@@ -13,7 +13,7 @@ Python 3 Anaconda: It will install ipython notebook and most of the libraries wh
 ## DATA
 
 HistoricalData_APPLE.csv
-![alt text](https://drive.google.com/file/d/1wiCtktRpAanaQZGAMLzIxxCt46j1hwz9/view?usp=sharing)
+![Screenshot](https://user-images.githubusercontent.com/62774372/123954864-86029400-d9c6-11eb-8981-bddf30c2ba56.png)
 
 
 ## Data Overview
