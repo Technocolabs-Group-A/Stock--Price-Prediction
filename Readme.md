@@ -59,15 +59,18 @@ Data Visualization for all the columns for quarterly wise
 
 
 Scatter PLot is Plotted between each Attribute(Trend) 
-(https://drive.google.com/file/d/1ib8FFDrXaZrtGburc5bRDdKSB_Mv6Gkx/view?usp=sharing)
+![AyagWp9s8uRgAAAAAElFTkSuQmCC](https://user-images.githubusercontent.com/62774372/123956522-666c6b00-d9c8-11eb-9502-65c839802a2b.png)
+
 
 Heat Matrix is Shown For Correlation Between Each Attribute(Linear Relation)
- https://drive.google.com/file/d/1nF_FGeV2UZhQrQnURiSCJk9MFnU8ar2T/view?usp=sharing
+ ![Screenshot (19)](https://user-images.githubusercontent.com/62774372/123956726-a4698f00-d9c8-11eb-86ac-95ecd0987f3d.png)
 
 
 ## LINEAR REGRESSION 
 
 Linear_regression(2).ipynb
+
+![WhatsApp Image 2021-06-30 at 2 45 21 PM](https://user-images.githubusercontent.com/62774372/123957141-1215bb00-d9c9-11eb-9a09-08a714929a08.jpeg)
 
 
 
