@@ -19,23 +19,23 @@ HistoricalData_APPLE.csv
 
 ## Data Overview
 
-Data Source --> Dataset/
+<strong> Data Source </strong> --> Dataset/
 
-Data points --> 2517 rows
+<strong> Data points </strong>--> 2517 rows
 
-Dataset date range --> October 2011 to September 2021
+<strong> Dataset date range </strong> --> October 2011 to September 2021
 
-Dataset Attributes:
+<strong> Dataset Attributes: </strong>
 
-Close/Last - Close/Last Prices
+* Close/Last - Close/Last Prices
 
-Volume - Volume of Stocks
+* Volume - Volume of Stocks
 
-Open - Opening Prices of Stocks
+* Open - Opening Prices of Stocks
 
-High - High Prices of Stocks
+* High - Highest Prices of Stocks
 
-Low -  Low Prices of Stocks
+* Low -  Lowest Prices of Stocks
 
 ## Data Preprocessing
 
@@ -44,6 +44,8 @@ Low -  Low Prices of Stocks
     Deleted "Unnamed:7" Column For "Nan" Values Parsed The Date attribute in "datetime64" data type. Checked For Duplicate Rows(Not Found).
 
 ## EDA(Exploratry Data Analysis)
+
+### Here are some examples of data analysis we have done while exploring data
 
 Data Visualization for all the columns for yearly wise
 
@@ -80,24 +82,24 @@ Heat Matrix is Shown For Correlation Between Each Attribute(Linear Relation)
 
 ## Steps that we performed:
 
-   Web scrapped
-   Data Loading
-   Data Preprocessing
-   Exploratory data analysis
-   Feature engineering
-   Feature selection
-   Feature transformation
-   Model building
-   Model evalutaion
-   Model tuning
-   Prediction's
+  * Web scrapped
+  * Data Loading
+  * Data Preprocessing
+  * Exploratory data analysis
+  * Feature engineering
+  * Feature selection
+  * Feature transformation
+  * Model building
+  * Model evalutaion
+  * Model tuning
+  * Prediction's
 
 ## Tools used:
 
-   Python
-   Pycharm
-   Jupyter Notebook
-   Google Colab
-   GitHub
-   GitBash
-   SublimeTextEditor 
+  * Python
+  * Pycharm
+  * Jupyter Notebook
+  * Google Colab
+  * GitHub
+  * GitBash
+  * SublimeTextEditor 
