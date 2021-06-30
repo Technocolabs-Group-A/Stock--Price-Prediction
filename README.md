@@ -14,15 +14,16 @@ Python 3 Anaconda: It will install ipython notebook and most of the libraries wh
 
 HistoricalData_APPLE.csv
 
-## Screenshots
-
-(https://drive.google.com/file/d/1wiCtktRpAanaQZGAMLzIxxCt46j1hwz9/view?usp=sharing)
+![App Screenshot](https://drive.google.com/file/d/1wiCtktRpAanaQZGAMLzIxxCt46j1hwz9/view?usp=sharing)
 
 ## Data Overview
 
 Data Source --> Dataset/
+
 Data points --> 2517 rows
+
 Dataset date range --> October 2011 to September 2021
+
 Dataset Attributes:
 
 Close/Last - Close/Last Prices
