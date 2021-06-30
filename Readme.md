@@ -68,10 +68,12 @@ Heat Matrix is Shown For Correlation Between Each Attribute(Linear Relation)
 
 ## LINEAR REGRESSION 
 
-Linear_regression(2).ipynb
 
 ![WhatsApp Image 2021-06-30 at 2 45 21 PM](https://user-images.githubusercontent.com/62774372/123957141-1215bb00-d9c9-11eb-9a09-08a714929a08.jpeg)
 
+##RNN LSTM
+
+![Screenshot (27)](https://user-images.githubusercontent.com/62774372/123957916-08d91e00-d9ca-11eb-8664-5b59067a4730.png)
 
 
 
