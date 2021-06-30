@@ -78,6 +78,8 @@ Heat Matrix is Shown For Correlation Between Each Attribute(Linear Relation)
 We are classifying the news articles such that our model helps in classifying the news articles to be a profit or a loss.
 We are doing this by calculating the diff in closed price of present day with the previous day.
 
+![WhatsApp Image 2021-06-30 at 10 09 33 PM](https://user-images.githubusercontent.com/54480904/123999788-82840280-d9f0-11eb-8803-1317c108605e.jpeg)
+
 
 ## RNN LSTM
 
