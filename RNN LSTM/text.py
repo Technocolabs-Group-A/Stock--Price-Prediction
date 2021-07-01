@@ -215,18 +215,14 @@ from keras.models import Sequential
 from keras.layers import Dense, LSTM, Dropout, Dense, Activation
 
 # setting the seed to achieve consistent and less random predictions at each execution
-np.random.seed(2016)
+np.random.seed(500)
 
 # setting the model architecture
 model=Sequential()
-model.add(LSTM(100,return_sequences=True,activation='tanh',input_shape=(len(cols),1)))
-model.add(Dropout(0.1))
-model.add(LSTM(100,return_sequences=True,activation='tanh'))
-model.add(Dropout(0.1))
-model.add(LSTM(100,return_sequences=True,activation='tanh'))
-model.add(Dropout(0.1))
-model.add(LSTM(100,activation='tanh'))
-model.add(Dropout(0.1))
+model.add(LSTM(200,return_sequences=True,activation='tanh',input_shape=(len(cols),1)))
+model.add(Dropout(0.4))
+model.add(LSTM(250,activation='tanh'))
+model.add(Dropout(0.4))
 model.add(Dense(1))
 
 # printing the model summary
@@ -236,7 +232,7 @@ model.summary()
 model.compile(loss='mse' , optimizer='adam')
 
 # fitting the model using the training dataset
-model.fit(X_train, y_train, validation_split=0.2, epochs=100, batch_size=8, verbose=1)
+model.fit(X_train, y_train, validation_split=0.2, epochs=100, batch_size=16, verbose=1)
 
 # saving the model as a json file
 model_json = model.to_json()
