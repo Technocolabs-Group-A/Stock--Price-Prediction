@@ -45,6 +45,18 @@ HistoricalData_APPLE.csv
 
 ## EDA(Exploratry Data Analysis)
 
+Exploratory Data Analysis is a process of examining or understanding the data and extracting insights or main characteristics of the data. EDA is generally classified into two methods, i.e. graphical analysis and non-graphical analysis.
+
+Technically, The primary motive of EDA is to
+
+    Examine the data distribution
+    Handling missing values of the dataset(a most common issue with every dataset)
+    Handling the outliers
+    Removing duplicate data
+    Encoding the categorical variables
+    Normalizing and Scaling
+
+
 ### Here are some examples of data analysis we have done while exploring data
 
 Data Visualization for all the columns for yearly wise
