@@ -9,6 +9,21 @@ You need to have installed following softwares and libraries in your machine bef
 
 Python 3 Anaconda: It will install ipython notebook and most of the libraries which are needed like sklearn, pandas, seaborn, matplotlib, numpy, scipy,streamlit.
 
+## Libraries used
+
+Pandas: For creating and manipulating dataframes.
+
+Scikit Learn: For importing k-means clustering.
+
+JSON: Library to handle JSON files.
+
+XML: To separate data from presentation and XML stores data in plain text format.
+
+Beautiful Soup and Requests: To scrap and library to handle http requests.
+
+Matplotlib: Python Plotting Module.
+
+
   
 ## DATA
 
