@@ -1,7 +1,8 @@
 
 # Stock Market Price Predictor using Supervised Learning
-# Aim
+## Aim
 To examine a number of different forecasting techniques to predict future stock returns based on past returns and numerical news indicators to construct a portfolio of multiple stocks in order to diversify the risk. We do this by applying supervised learning methods for stock price forecasting by interpreting the seemingly chaotic market data.
+The fluctuation of the stock market is violent and there are many complicated financial indicators. However, the advancement in technology provides an opportunity to gain steady fortune from stock market and also can help experts to find out the ost informative indicators to make better prediction. The prediction of the market value is of paramount importance to help in maximizing the profit of stock option purchase while keeping the risk low. We have used previous datasets of stocks and news headines for the forecasting.
 
 ## Prerequisites
 
