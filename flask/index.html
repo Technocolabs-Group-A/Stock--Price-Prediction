@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stocks Price Prediction</title>
+
+    <style type="text/css">
+        body {
+            padding: 0px;
+            margin: 0px;
+            background: url('http://www.pngmagic.com/product_images/blue-abstract-background-images-hd.jpg');
+        }
+
+        h1 {
+            width: fit-content;
+            margin: 20px auto;
+            background-color: rgb(0, 247, 255);
+            padding: 2px 20px;
+            border-radius: 10px;
+        }
+
+        form {
+            margin: 10px 20px;
+            padding: 20px 10px;
+            background-color: rgba(240, 248, 255, 0.3);
+            border-radius: 10px;
+        }
+
+        fieldset {
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+
+        legend {
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(174, 0, 255);
+            background-color: rgb(193, 226, 255);
+            border-radius: 10px;
+            padding: 2px 6px;
+        }
+
+        .data {
+            align-items: center;
+            margin: 5px 10px;
+            padding: 10px none;
+            display: flex;
+
+        }
+
+        .data label {
+            text-align: center;
+            display: inline-block;
+            width: 30vw;
+            font-size: 16px;
+        }
+
+        .data input {
+            display: inline-block;
+            width: 40vw;
+            margin: 5px 10vw;
+            padding: 3px 2px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 16px;
+            border: 1.6px solid rgb(92, 92, 92);
+            border-radius: 4px;
+            background-color: rgba(240, 248, 255, 0.9);
+        }
+
+        #btn {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: rgb(0, 247, 255);
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            padding: 6px 20px;
+            margin: 48px auto;
+            display: block;
+            width: 160px;
+            transition: transform 0.5s;
+        }
+
+        #btn:hover {
+            background-color: rgb(9, 255, 194);
+            transform: scale(1.1);
+            transition: all 0.5s;
+            text-decoration: underline;
+        }
+
+        #btn:active {
+            background-color: rgb(9, 255, 194);
+            transition: all 0.4s;
+            text-decoration: underline;
+        }
+
+        .predictdata {
+            text-align: center;
+            padding: 10px none;
+            margin: 48px 20px 20px 20px;
+        }
+
+        .predictdata label {
+            font-size: 16px;
+        }
+
+        .predictdata input {
+            display: inline-block;
+            width: 20vw;
+            margin: 5px 10vw;
+            padding: 3px 2px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 16px;
+            border: 1.6px solid rgb(92, 92, 92);
+            border-radius: 4px;
+            background-color: rgba(240, 248, 255, 0.9);
+        }
+
+        .predictdata input:hover {
+            cursor: not-allowed;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stocks Price Prediction</h1>
+
+    <form action="">
+
+        <fieldset>
+            <legend>Enter 'Volume', 'Open', 'High', 'Low'</legend>
+
+            <div class="data">
+                <label for="volume">Volume :</label>
+                <input type="number" step="0.01" name="txVol" id="volume">
+            </div>
+
+            <div class="data">
+                <label for="open">Open :</label>
+                <input type="number" step="0.01" name="txOpen" id="open">
+            </div>
+
+            <div class="data">
+                <label for="high">High :</label>
+                <input type="number" step="0.01" name="txHigh" id="high">
+            </div>
+
+            <div class="data">
+                <label for="low">Low :</label>
+                <input type="number" step="0.01" name="txLow" id="low">
+            </div>
+        </fieldset>
+
+        <button id="btn">Predict </button>
+
+    </form>
+               {{prediction_text}}
+</body>
