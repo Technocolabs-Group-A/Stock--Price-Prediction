@@ -1,13 +1,29 @@
 
 # Stock Market Price Predictor using Supervised Learning
-# Aim
+## Aim
 To examine a number of different forecasting techniques to predict future stock returns based on past returns and numerical news indicators to construct a portfolio of multiple stocks in order to diversify the risk. We do this by applying supervised learning methods for stock price forecasting by interpreting the seemingly chaotic market data.
+The fluctuation of the stock market is violent and there are many complicated financial indicators. However, the advancement in technology provides an opportunity to gain steady fortune from stock market and also can help experts to find out the ost informative indicators to make better prediction. The prediction of the market value is of paramount importance to help in maximizing the profit of stock option purchase while keeping the risk low. We have used previous datasets of stocks and news headines for the forecasting.
 
 ## Prerequisites
 
 You need to have installed following softwares and libraries in your machine before running this project.
 
 Python 3 Anaconda: It will install ipython notebook and most of the libraries which are needed like sklearn, pandas, seaborn, matplotlib, numpy, scipy,streamlit.
+
+## Libraries used
+
+Pandas: For creating and manipulating dataframes.
+
+Scikit Learn: For importing k-means clustering.
+
+JSON: Library to handle JSON files.
+
+XML: To separate data from presentation and XML stores data in plain text format.
+
+Beautiful Soup and Requests: To scrap and library to handle http requests.
+
+Matplotlib: Python Plotting Module.
+
 
   
 ## DATA
@@ -44,6 +60,18 @@ HistoricalData_APPLE.csv
     Deleted "Unnamed:7" Column For "Nan" Values Parsed The Date attribute in "datetime64" data type. Checked For Duplicate Rows(Not Found).
 
 ## EDA(Exploratry Data Analysis)
+
+Exploratory Data Analysis is a process of examining or understanding the data and extracting insights or main characteristics of the data. EDA is generally classified into two methods, i.e. graphical analysis and non-graphical analysis.
+
+Technically, The primary motive of EDA is to
+
+    Examine the data distribution
+    Handling missing values of the dataset(a most common issue with every dataset)
+    Handling the outliers
+    Removing duplicate data
+    Encoding the categorical variables
+    Normalizing and Scaling
+
 
 ### Here are some examples of data analysis we have done while exploring data
 
