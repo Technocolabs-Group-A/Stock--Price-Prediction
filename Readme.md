@@ -99,6 +99,11 @@ Heat Matrix is Shown For Correlation Between Each Attribute(Linear Relation)
 ## LINEAR REGRESSION 
 **Linear Regression** is a supervised learning algorithm in machine learning. It models a prediction value according to independent variables and helps in finding the relationship between those variables and the forecast and in this case we used last years dataset of companies to predict stocks value for future.
 
+The accuracy score of model by linear regression</br>
+rmse(Root Mean Sqaured Error) = 0.1459830874093662</br>
+r2(R-Square Score) = 0.9998357614326422
+
+
 ![WhatsApp Image 2021-06-30 at 2 45 21 PM](https://user-images.githubusercontent.com/62774372/123957141-1215bb00-d9c9-11eb-9a09-08a714929a08.jpeg)
 
 ## Naïve Bayes
@@ -108,13 +113,16 @@ Heat Matrix is Shown For Correlation Between Each Attribute(Linear Relation)
  Bayes' Theorem -  &nbsp; ![naive-bayes-classifier-algorithm](https://user-images.githubusercontent.com/54480904/124004729-ee1c9e80-d9f5-11eb-9137-e6e10a6bf7e6.png)
 
 We are classifying the news articles such that our model helps in classifying the news articles to be a profit or a loss.
-We are doing this by calculating the diff in closed price of present day with the previous day.
-
+We are doing this by calculating the diff in closed price of present day with the previous day.</br>
+The Accuracy score in Naïve bayes is **51.93%** </br>
+And After Hyperparameter Tuning it increased to **53.29%**
 ![WhatsApp Image 2021-06-30 at 10 09 33 PM](https://user-images.githubusercontent.com/54480904/123999788-82840280-d9f0-11eb-8803-1317c108605e.jpeg)
 
 
 ## RNN LSTM
 **Neural networks**, also known as artificial neural networks (ANNs) or simulated neural networks (SNNs), are a subset of machine learning and are at the heart of deep learning algorithms. As the name suggest Neural network, it is quiet like our brain where there are some neurons working to get us the output. Then comes **RNN** which is a type of Neural Network which uses sequential data or time series data. **Long Short-Term Memory (LSTM)** networks are a type of recurrent neural network capable of learning order dependence in sequence prediction problems.
+
+The rmse score in LSTM is 101.3501
 
 ![Screenshot (27)](https://user-images.githubusercontent.com/62774372/123957916-08d91e00-d9ca-11eb-8664-5b59067a4730.png)
 
