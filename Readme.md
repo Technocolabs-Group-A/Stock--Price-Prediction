@@ -126,7 +126,8 @@ The rmse score in LSTM is 101.3501
 
 ![Screenshot (27)](https://user-images.githubusercontent.com/62774372/123957916-08d91e00-d9ca-11eb-8664-5b59067a4730.png)
 
-
+## Modeling And Deployment
+ The model we choose finally is Linear Regression and Deployed it on heroku and streamlit. 
 
 
 ## Steps that we performed:
