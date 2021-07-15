@@ -57,7 +57,8 @@ HistoricalData_APPLE.csv
 
 ## DATA CLEANING
 
-    Deleted "Unnamed:7" Column For "Nan" Values Parsed The Date attribute in "datetime64" data type. Checked For Duplicate Rows(Not Found).
+   Deleted "Unnamed:7" Column For "Nan" Values Parsed The Date attribute in "datetime64" data type. Checked For Duplicate Rows(Not Found).
+   Dropped features which are of no use the model. Removed outliers from data and make it more clean to use further.
 
 ## EDA(Exploratry Data Analysis)
 
@@ -95,13 +96,23 @@ Scatter PLot is Plotted between each Attribute(Trend)
 Heat Matrix is Shown For Correlation Between Each Attribute(Linear Relation)
  ![Screenshot (19)](https://user-images.githubusercontent.com/62774372/123956726-a4698f00-d9c8-11eb-86ac-95ecd0987f3d.png)
 
+# Data Modelling
+So, after the exploratory data analysis we started modelling using Python.So for modelling we used Machine Learning algorithms on the datasets to build model to that will generate output for prediction of Stocks Price.In this step we have divided the data into train
+and test as 80%,20% respectively. In this process we have used many
+algorithms and applied some hyperparameter tuning so that our algorithms can
+do better.
+The algorithms which we have tried are:
+1. Linear Regression
+2. Naïve bayes
+3. Neural networks
+
 
 ## LINEAR REGRESSION 
 **Linear Regression** is a supervised learning algorithm in machine learning. It models a prediction value according to independent variables and helps in finding the relationship between those variables and the forecast and in this case we used last years dataset of companies to predict stocks value for future.
 
 The accuracy score of model by linear regression</br>
-rmse(Root Mean Sqaured Error) = 0.1459830874093662</br>
-r2(R-Square Score) = 0.9998357614326422
+**RMSE**(Root Mean Sqaured Error) = 0.1459830874093662</br>
+**R-2**(R-Square Score) = 0.9998357614326422
 
 
 ![WhatsApp Image 2021-06-30 at 2 45 21 PM](https://user-images.githubusercontent.com/62774372/123957141-1215bb00-d9c9-11eb-9a09-08a714929a08.jpeg)
@@ -153,3 +164,20 @@ The rmse score in LSTM is 101.3501
   * GitHub
   * GitBash
   * SublimeTextEditor 
+ 
+ ## Team Members
+  1. Chandrachud Singh Chundawat
+  2. V. Nanda Gopal
+  3. Rahul Amarwal 
+  4. Kondapu Lavanya
+  5. Sunil Mali
+  6. Sandeep Mannam
+  7. Giduturi Namrata Sai
+  8. Bale Meghana
+  9. Sital Agrawal
+
+### Team Leader 
+   * Chandrachud Singh Chundawat
+
+### Coordinator Name
+   * Mr. Yasin shah
