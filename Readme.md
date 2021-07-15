@@ -27,6 +27,8 @@ Matplotlib: Python Plotting Module.
 
   
 ## DATA
+the dataset we considered is web scrapped from APIs.
+The Historical Dataset came from NASDAQ API and News Articles are from Yahoo Finance
 
 HistoricalData_APPLE.csv
 
