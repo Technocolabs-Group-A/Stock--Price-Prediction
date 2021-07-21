@@ -143,6 +143,9 @@ And After Hyperparameter Tuning it increased to **53.29%**
 
 The rmse score in LSTM is 101.3501
 
+![Screenshot (187)](https://user-images.githubusercontent.com/54480904/126520705-81c74d0e-527e-4cc5-a219-d5b9ed125cbe.png)
+
+
 ![Screenshot (27)](https://user-images.githubusercontent.com/62774372/123957916-08d91e00-d9ca-11eb-8664-5b59067a4730.png)
 
 ## LSTM using 20 Days Data 
@@ -153,7 +156,7 @@ Predicting the closing stock price of a Apple Inc. using the past 20 day stock p
 
 
 ## Modeling And Deployment
- The model we choose finally is Linear Regression and Deployed it on heroku and streamlit. 
+ The model we choose finally is Linear Regression and Deployed it on heroku and streamlit. we used flask framework to upload model on website.
 
 
 ## Steps that we performed:
