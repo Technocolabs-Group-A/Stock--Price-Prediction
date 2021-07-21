@@ -116,6 +116,7 @@ The accuracy score of model by linear regression</br>
 **RMSE**(Root Mean Sqaured Error) = 0.1459830874093662</br>
 **R-2**(R-Square Score) = 0.9998357614326422
 
+![Screenshot (185)](https://user-images.githubusercontent.com/54480904/126519079-8a26eda3-f33d-4f6f-8b3b-2f231b6064c5.png)
 
 ![WhatsApp Image 2021-06-30 at 2 45 21 PM](https://user-images.githubusercontent.com/62774372/123957141-1215bb00-d9c9-11eb-9a09-08a714929a08.jpeg)
 
@@ -130,6 +131,10 @@ We are classifying the news articles such that our model helps in classifying th
 We are doing this by calculating the diff in closed price of present day with the previous day.</br>
 The Accuracy score in Naïve bayes is **51.93%** </br>
 And After Hyperparameter Tuning it increased to **53.29%**
+
+![Screenshot (186)](https://user-images.githubusercontent.com/54480904/126519775-b2e51bfd-43cf-4dd2-bea2-f78caef92baa.png)
+
+
 ![WhatsApp Image 2021-06-30 at 10 09 33 PM](https://user-images.githubusercontent.com/54480904/123999788-82840280-d9f0-11eb-8803-1317c108605e.jpeg)
 
 
@@ -139,6 +144,13 @@ And After Hyperparameter Tuning it increased to **53.29%**
 The rmse score in LSTM is 101.3501
 
 ![Screenshot (27)](https://user-images.githubusercontent.com/62774372/123957916-08d91e00-d9ca-11eb-8664-5b59067a4730.png)
+
+## LSTM using 20 Days Data 
+
+Predicting the closing stock price of a Apple Inc. using the past 20 day stock price by an artificial recurrent neural network called LSTM. We combine Historical data of Apple stocks prices and News articles data after some necessary changes to make them useful to get a combined dataset. Then we apply Sentiment Analysis on the News Headlines of the dataset to get 'compound', 'positive', 'negative' and 'neutral' values from it. After making some necessary changes and visualizing the data in various ways, we finalize 'close_price' and 'compound' as our features and 'close_price' as our dependent variable. The model is then trained on 80% of the data after applying the Feature Scaling (MinMaxScaler) on the features and tested on the remaining. We train the model by adding sufficient number of LSTM and Dense layers and using appropriate parameters values. At last the model predicts the values of 21st day Closed Price using past 20 days Closed Price and Compound value generated from the news headlines.
+
+![Screenshot (184)](https://user-images.githubusercontent.com/54480904/126518777-5f3281ed-576d-4828-8c39-3a2ee7f018b9.png)
+
 
 ## Modeling And Deployment
  The model we choose finally is Linear Regression and Deployed it on heroku and streamlit. 
