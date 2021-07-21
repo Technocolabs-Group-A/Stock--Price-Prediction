@@ -27,6 +27,8 @@ Matplotlib: Python Plotting Module.
 
   
 ## DATA
+the dataset we considered is web scrapped from APIs.
+The Historical Dataset came from NASDAQ API and News Articles are from Yahoo Finance
 
 HistoricalData_APPLE.csv
 
@@ -57,7 +59,8 @@ HistoricalData_APPLE.csv
 
 ## DATA CLEANING
 
-    Deleted "Unnamed:7" Column For "Nan" Values Parsed The Date attribute in "datetime64" data type. Checked For Duplicate Rows(Not Found).
+   Deleted "Unnamed:7" Column For "Nan" Values Parsed The Date attribute in "datetime64" data type. Checked For Duplicate Rows(Not Found).
+   Dropped features which are of no use the model. Removed outliers from data and make it more clean to use further.
 
 ## EDA(Exploratry Data Analysis)
 
@@ -95,9 +98,24 @@ Scatter PLot is Plotted between each Attribute(Trend)
 Heat Matrix is Shown For Correlation Between Each Attribute(Linear Relation)
  ![Screenshot (19)](https://user-images.githubusercontent.com/62774372/123956726-a4698f00-d9c8-11eb-86ac-95ecd0987f3d.png)
 
+# Data Modelling
+So, after the exploratory data analysis we started modelling using Python.So for modelling we used Machine Learning algorithms on the datasets to build model to that will generate output for prediction of Stocks Price.In this step we have divided the data into train
+and test as 80%,20% respectively. In this process we have used many
+algorithms and applied some hyperparameter tuning so that our algorithms can
+do better.
+The algorithms which we have tried are:
+1. Linear Regression
+2. Naïve bayes
+3. Neural networks
+
 
 ## LINEAR REGRESSION 
 **Linear Regression** is a supervised learning algorithm in machine learning. It models a prediction value according to independent variables and helps in finding the relationship between those variables and the forecast and in this case we used last years dataset of companies to predict stocks value for future.
+
+The accuracy score of model by linear regression</br>
+**RMSE**(Root Mean Sqaured Error) = 0.1459830874093662</br>
+**R-2**(R-Square Score) = 0.9998357614326422
+
 
 ![WhatsApp Image 2021-06-30 at 2 45 21 PM](https://user-images.githubusercontent.com/62774372/123957141-1215bb00-d9c9-11eb-9a09-08a714929a08.jpeg)
 
@@ -108,17 +126,21 @@ Heat Matrix is Shown For Correlation Between Each Attribute(Linear Relation)
  Bayes' Theorem -  &nbsp; ![naive-bayes-classifier-algorithm](https://user-images.githubusercontent.com/54480904/124004729-ee1c9e80-d9f5-11eb-9137-e6e10a6bf7e6.png)
 
 We are classifying the news articles such that our model helps in classifying the news articles to be a profit or a loss.
-We are doing this by calculating the diff in closed price of present day with the previous day.
-
+We are doing this by calculating the diff in closed price of present day with the previous day.</br>
+The Accuracy score in Naïve bayes is **51.93%** </br>
+And After Hyperparameter Tuning it increased to **53.29%**
 ![WhatsApp Image 2021-06-30 at 10 09 33 PM](https://user-images.githubusercontent.com/54480904/123999788-82840280-d9f0-11eb-8803-1317c108605e.jpeg)
 
 
 ## RNN LSTM
 **Neural networks**, also known as artificial neural networks (ANNs) or simulated neural networks (SNNs), are a subset of machine learning and are at the heart of deep learning algorithms. As the name suggest Neural network, it is quiet like our brain where there are some neurons working to get us the output. Then comes **RNN** which is a type of Neural Network which uses sequential data or time series data. **Long Short-Term Memory (LSTM)** networks are a type of recurrent neural network capable of learning order dependence in sequence prediction problems.
 
+The rmse score in LSTM is 101.3501
+
 ![Screenshot (27)](https://user-images.githubusercontent.com/62774372/123957916-08d91e00-d9ca-11eb-8664-5b59067a4730.png)
 
-
+## Modeling And Deployment
+ The model we choose finally is Linear Regression and Deployed it on heroku and streamlit. 
 
 
 ## Steps that we performed:
@@ -144,3 +166,20 @@ We are doing this by calculating the diff in closed price of present day with th
   * GitHub
   * GitBash
   * SublimeTextEditor 
+ 
+ ## Team Members
+  1. Chandrachud Singh Chundawat
+  2. V. Nanda Gopal
+  3. Rahul Amarwal 
+  4. Kondapu Lavanya
+  5. Sunil Mali
+  6. Sandeep Mannam
+  7. Giduturi Namrata Sai
+  8. Bale Meghana
+  9. Sital Agrawal
+
+### Team Leader 
+   * Chandrachud Singh Chundawat
+
+### Coordinator Name
+   * Mr. Yasin shah

@@ -1,1 +1,1 @@
-Created Headlines datasets folder for stacking up CSV files. 
+Created Headlines and historical datasets folder for stacking up CSV files. 
