@@ -125,6 +125,7 @@ The accuracy score of model by linear regression</br>
 
  Bayes' Theorem -  &nbsp; ![naive-bayes-classifier-algorithm](https://user-images.githubusercontent.com/54480904/124004729-ee1c9e80-d9f5-11eb-9137-e6e10a6bf7e6.png)
 
+Predicting the Impact of News articles on the Closed Price of the Apple Inc. Stocks using Naive Bayes Classifier. Firstoff all we merge the News Articles dataset and Historical Stocks Dataset into a single dataset on the 'Date' column after making some necessary changes to them. Now we add two more column named 'close_price_diff' and 'Impact' to the dataset, with 'close_price_diff' column containing the difference in Closed Price from the previous day and 'Impact' column containing 1 if the Closed Price difference is positive and 0 if it is negative. Afterwards we apply Natural Language Processing on the News Headlines text and obtain a Bag of words containing 20000 most common words from them by converting them to vectorized form. Now we train the Naive Bayes model (Gaussian, Multinomial or Bernoulli each in different files) by the splitting the dataset, 80% as training dataset and 20% as test dataset. Finally we do HyperParameter tuning to get the best predicted results.
 We are classifying the news articles such that our model helps in classifying the news articles to be a profit or a loss.
 We are doing this by calculating the diff in closed price of present day with the previous day.</br>
 The Accuracy score in Naïve bayes is **51.93%** </br>
