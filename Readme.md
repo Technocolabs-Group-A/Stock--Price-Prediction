@@ -157,6 +157,12 @@ Predicting the closing stock price of a Apple Inc. using the past 20 day stock p
 
 ## Modeling And Deployment
  The model we choose finally is Linear Regression and Deployed it on heroku and streamlit. we used flask framework to upload model on website.
+Deploying the LSTM Combined_Data using Streamlit. It uses predicts the Closed Price of 21st day using past 20 days Close Price. In this we combined the News Articles data and Historical data to form new dataset named stock_data. We used the stock_data to train our model of Neural Networks which is build by using LSTM and Dense layers. At last we save the model in .h5 format, which is used by app.py file to display the results in the Streamlit interface. The app.py file uses the model.h5 file and predicts the result. It also is used to design the Streamlit interface and manipulate what to show on it. Finally the user can interact with the index.html file to enter a date for which he/se wants the Closed Price to be Predicted.
+
+Here are some screenshots of website deployed in Streamlit.
+
+![WhatsApp Image 2021-07-23 at 10 35 57 PM (1)](https://user-images.githubusercontent.com/54480904/126817813-29f25b1c-23e7-4c60-84b1-9fc6412a62be.jpeg)
+![WhatsApp Image 2021-07-23 at 10 35 57 PM](https://user-images.githubusercontent.com/54480904/126817818-9f69c175-3cd0-4963-b72b-78b449fd179a.jpeg)
 
 
 ## Steps that we performed:
