@@ -148,11 +148,15 @@ The rmse score in LSTM is 101.3501
 
 ![Screenshot (27)](https://user-images.githubusercontent.com/62774372/123957916-08d91e00-d9ca-11eb-8664-5b59067a4730.png)
 
+
 ## LSTM using 20 Days Data 
 
 Predicting the closing stock price of a Apple Inc. using the past 20 day stock price by an artificial recurrent neural network called LSTM. We combine Historical data of Apple stocks prices and News articles data after some necessary changes to make them useful to get a combined dataset. Then we apply Sentiment Analysis on the News Headlines of the dataset to get 'compound', 'positive', 'negative' and 'neutral' values from it. After making some necessary changes and visualizing the data in various ways, we finalize 'close_price' and 'compound' as our features and 'close_price' as our dependent variable. The model is then trained on 80% of the data after applying the Feature Scaling (MinMaxScaler) on the features and tested on the remaining. We train the model by adding sufficient number of LSTM and Dense layers and using appropriate parameters values. At last the model predicts the values of 21st day Closed Price using past 20 days Closed Price and Compound value generated from the news headlines.
 
 ![Screenshot (184)](https://user-images.githubusercontent.com/54480904/126518777-5f3281ed-576d-4828-8c39-3a2ee7f018b9.png)
+
+![WhatsApp Image 2021-07-23 at 10 50 39 PM](https://user-images.githubusercontent.com/54480904/126818702-cc517f21-c2f6-4211-8a3a-61b0a6b93203.jpeg)
+
 
 
 ## Modeling And Deployment
