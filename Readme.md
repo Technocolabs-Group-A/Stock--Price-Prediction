@@ -170,6 +170,10 @@ Here are some screenshots of website deployed in Streamlit.
 ![WhatsApp Image 2021-07-23 at 10 35 57 PM (1)](https://user-images.githubusercontent.com/54480904/126817813-29f25b1c-23e7-4c60-84b1-9fc6412a62be.jpeg)
 ![WhatsApp Image 2021-07-23 at 10 35 57 PM](https://user-images.githubusercontent.com/54480904/126817818-9f69c175-3cd0-4963-b72b-78b449fd179a.jpeg)
 
+## Task Performed By Every Member of Team During Internship
+
+![Screenshot (190)](https://user-images.githubusercontent.com/54480904/126876221-a18ce950-a2ac-473b-9707-4a8f547ad14a.png)
+
 
 ## Steps that we performed:
 
